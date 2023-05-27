@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UTS NAIVE BAYES &#8212; My sample book</title>
+    <title>UTS &#8212; My sample book</title>
   
   
   
@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="MLP" href="MLP.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="Mengumpulkan%20Data.html" />
+    <link rel="prev" title="MENGUMPULKAN DATA" href="Mengumpulkan%20Data.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -157,9 +157,12 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="NaiveBayes.html">Naive Bayes data Iris</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">UTS NAIVE BAYES</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Mengumpulkan%20Data.html">MENGUMPULKAN DATA</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">UTS</a></li>
+
 
 <li class="toctree-l1"><a class="reference internal" href="MLP.html">MLP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PCA.html">Implementasi SklearnPCA</a></li>
 </ul>
 
     </div>
@@ -343,7 +346,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>UTS NAIVE BAYES</h1>
+    <h1>UTS</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -353,8 +356,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">UTS NAIVE BAYES</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#uts-knn">UTS KNN</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">UTS</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#naive-bayes">NAIVE BAYES</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#knn">KNN</a></li>
 </ul>
 
             </nav>
@@ -367,10 +371,13 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <div class="tex2jax_ignore mathjax_ignore section" id="uts-naive-bayes">
-<h1>UTS NAIVE BAYES<a class="headerlink" href="#uts-naive-bayes" title="Permalink to this heading">#</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="uts">
+<h1>UTS<a class="headerlink" href="#uts" title="Permalink to this heading">#</a></h1>
 <p>NAMA : RAHMA NURHALIZA</p>
 <p>NIM : 210411100176</p>
+</div>
+<div class="tex2jax_ignore mathjax_ignore section" id="naive-bayes">
+<h1>NAIVE BAYES<a class="headerlink" href="#naive-bayes" title="Permalink to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -390,7 +397,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-18e74666-95ce-4d99-86de-2007a0d23c4b">
+  <div id="df-6b5a30d1-e031-4787-a88e-30b867c78c09">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -556,7 +563,7 @@ document.write(`
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-18e74666-95ce-4d99-86de-2007a0d23c4b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-6b5a30d1-e031-4787-a88e-30b867c78c09')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -607,12 +614,12 @@ document.write(`
 
       <script>
         const buttonEl =
-          document.querySelector('#df-18e74666-95ce-4d99-86de-2007a0d23c4b button.colab-df-convert');
+          document.querySelector('#df-6b5a30d1-e031-4787-a88e-30b867c78c09 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-18e74666-95ce-4d99-86de-2007a0d23c4b');
+          const element = document.querySelector('#df-6b5a30d1-e031-4787-a88e-30b867c78c09');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -771,8 +778,8 @@ document.write(`
 </div>
 </div>
 </div>
-<div class="tex2jax_ignore mathjax_ignore section" id="uts-knn">
-<h1>UTS KNN<a class="headerlink" href="#uts-knn" title="Permalink to this heading">#</a></h1>
+<div class="tex2jax_ignore mathjax_ignore section" id="knn">
+<h1>KNN<a class="headerlink" href="#knn" title="Permalink to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -792,7 +799,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-87ea903a-a241-4567-8e70-0051b41a76ae">
+  <div id="df-c3e67c13-308f-4008-b465-cede5002169e">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -958,7 +965,7 @@ document.write(`
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-87ea903a-a241-4567-8e70-0051b41a76ae')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c3e67c13-308f-4008-b465-cede5002169e')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1009,12 +1016,12 @@ document.write(`
 
       <script>
         const buttonEl =
-          document.querySelector('#df-87ea903a-a241-4567-8e70-0051b41a76ae button.colab-df-convert');
+          document.querySelector('#df-c3e67c13-308f-4008-b465-cede5002169e button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-87ea903a-a241-4567-8e70-0051b41a76ae');
+          const element = document.querySelector('#df-c3e67c13-308f-4008-b465-cede5002169e');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1189,7 +1196,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">MENGUMPULKAN DATA</p>
       </div>
     </a>
     <a class="right-next"
@@ -1219,8 +1226,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">UTS NAIVE BAYES</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#uts-knn">UTS KNN</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">UTS</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#naive-bayes">NAIVE BAYES</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#knn">KNN</a></li>
 </ul>
 
   </nav></div>

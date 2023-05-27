@@ -1,3 +1,5 @@
+# MENGUMPULKAN DATA
+
 Nama : Rahma Nurhaliza
 
 NIM : 210411100176
