@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>&lt;no title&gt; &#8212; My sample book</title>
+    <title>DT_PCA &#8212; My sample book</title>
   
   
   
@@ -63,8 +63,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'DTPCA';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="ANNBPPCA.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="KNNPCA.html" />
+    <link rel="next" title="ANNBP PCA" href="ANNBPPCA.html" />
+    <link rel="prev" title="KNN_PCA" href="KNNPCA.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -155,7 +155,7 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="NaiveBayes.html">Naive Bayes data Iris</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Mengumpulkan%20Data.html">MENGUMPULKAN DATA</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UTS.html">UTS</a></li>
@@ -164,6 +164,10 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="Decisiontree.html">Tugas - Decision Tree</a></li>
 
 <li class="toctree-l1"><a class="reference internal" href="MLP.html">MLP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="NaivePCA.html">NAIVE PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="KNNPCA.html">KNN_PCA</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">DT_PCA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ANNBPPCA.html">ANNBP PCA</a></li>
 </ul>
 
     </div>
@@ -334,9 +338,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -347,19 +349,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>DT_PCA</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -369,7 +363,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <p><strong>DT_PCA</strong></p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="dt-pca">
+<h1>DT_PCA<a class="headerlink" href="#dt-pca" title="Permalink to this heading">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -389,7 +384,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c286543d-ac24-4207-92be-0961c32d075a">
+  <div id="df-04dd3c77-5275-4e78-90d8-32e9e108ffe4">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -460,7 +455,7 @@ document.write(`
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-c286543d-ac24-4207-92be-0961c32d075a')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-04dd3c77-5275-4e78-90d8-32e9e108ffe4')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -511,12 +506,12 @@ document.write(`
 
       <script>
         const buttonEl =
-          document.querySelector('#df-c286543d-ac24-4207-92be-0961c32d075a button.colab-df-convert');
+          document.querySelector('#df-04dd3c77-5275-4e78-90d8-32e9e108ffe4 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-c286543d-ac24-4207-92be-0961c32d075a');
+          const element = document.querySelector('#df-04dd3c77-5275-4e78-90d8-32e9e108ffe4');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -885,7 +880,7 @@ Eigenvelues
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-94c1d5b3-0c09-41ad-8664-aa12aa0b2798">
+  <div id="df-fc67a2f0-4cd8-41be-89b9-9d3c0de502d0">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -969,7 +964,7 @@ Eigenvelues
 </table>
 <p>150 rows × 2 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-94c1d5b3-0c09-41ad-8664-aa12aa0b2798')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-fc67a2f0-4cd8-41be-89b9-9d3c0de502d0')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1020,12 +1015,12 @@ Eigenvelues
 
       <script>
         const buttonEl =
-          document.querySelector('#df-94c1d5b3-0c09-41ad-8664-aa12aa0b2798 button.colab-df-convert');
+          document.querySelector('#df-fc67a2f0-4cd8-41be-89b9-9d3c0de502d0 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-94c1d5b3-0c09-41ad-8664-aa12aa0b2798');
+          const element = document.querySelector('#df-fc67a2f0-4cd8-41be-89b9-9d3c0de502d0');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1055,7 +1050,7 @@ Eigenvelues
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-83ee9ba1-1c69-47b4-ac8e-7d0380f6c00b">
+  <div id="df-7fafaa85-367f-4357-962a-fb6b087aeb1f">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1151,7 +1146,7 @@ Eigenvelues
 </table>
 <p>150 rows × 3 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-83ee9ba1-1c69-47b4-ac8e-7d0380f6c00b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-7fafaa85-367f-4357-962a-fb6b087aeb1f')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1202,12 +1197,12 @@ Eigenvelues
 
       <script>
         const buttonEl =
-          document.querySelector('#df-83ee9ba1-1c69-47b4-ac8e-7d0380f6c00b button.colab-df-convert');
+          document.querySelector('#df-7fafaa85-367f-4357-962a-fb6b087aeb1f button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-83ee9ba1-1c69-47b4-ac8e-7d0380f6c00b');
+          const element = document.querySelector('#df-7fafaa85-367f-4357-962a-fb6b087aeb1f');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1237,7 +1232,7 @@ Eigenvelues
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-fb75e13c-9cab-470e-9632-b2e9b30302c8">
+  <div id="df-aa3b5e18-4801-47f0-8e9e-d3d782814715">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1333,7 +1328,7 @@ Eigenvelues
 </table>
 <p>150 rows × 3 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-fb75e13c-9cab-470e-9632-b2e9b30302c8')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-aa3b5e18-4801-47f0-8e9e-d3d782814715')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1384,12 +1379,12 @@ Eigenvelues
 
       <script>
         const buttonEl =
-          document.querySelector('#df-fb75e13c-9cab-470e-9632-b2e9b30302c8 button.colab-df-convert');
+          document.querySelector('#df-aa3b5e18-4801-47f0-8e9e-d3d782814715 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-fb75e13c-9cab-470e-9632-b2e9b30302c8');
+          const element = document.querySelector('#df-aa3b5e18-4801-47f0-8e9e-d3d782814715');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1491,13 +1486,8 @@ dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
-Collecting category_encoders
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading category_encoders-2.6.1-py2.py3-none-any.whl (81 kB)
-?25l     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/81.9 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">81.9/81.9 kB</span> <span class=" -Color -Color-Red">3.4 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25hRequirement already satisfied: numpy&gt;=1.14.0 in /usr/local/lib/python3.10/dist-packages (from category_encoders) (1.22.4)
+Requirement already satisfied: category_encoders in /usr/local/lib/python3.10/dist-packages (2.6.1)
+Requirement already satisfied: numpy&gt;=1.14.0 in /usr/local/lib/python3.10/dist-packages (from category_encoders) (1.22.4)
 Requirement already satisfied: scikit-learn&gt;=0.20.0 in /usr/local/lib/python3.10/dist-packages (from category_encoders) (1.2.2)
 Requirement already satisfied: scipy&gt;=1.0.0 in /usr/local/lib/python3.10/dist-packages (from category_encoders) (1.10.1)
 Requirement already satisfied: statsmodels&gt;=0.9.0 in /usr/local/lib/python3.10/dist-packages (from category_encoders) (0.13.5)
@@ -1509,10 +1499,6 @@ Requirement already satisfied: six in /usr/local/lib/python3.10/dist-packages (f
 Requirement already satisfied: joblib&gt;=1.1.1 in /usr/local/lib/python3.10/dist-packages (from scikit-learn&gt;=0.20.0-&gt;category_encoders) (1.2.0)
 Requirement already satisfied: threadpoolctl&gt;=2.0.0 in /usr/local/lib/python3.10/dist-packages (from scikit-learn&gt;=0.20.0-&gt;category_encoders) (3.1.0)
 Requirement already satisfied: packaging&gt;=21.3 in /usr/local/lib/python3.10/dist-packages (from statsmodels&gt;=0.9.0-&gt;category_encoders) (23.1)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: category_encoders
-Successfully installed category_encoders-2.6.1
 </pre></div>
 </div>
 </div>
@@ -1534,7 +1520,7 @@ Successfully installed category_encoders-2.6.1
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2b71e7a0-59e6-4d14-ac5c-95f67e52fd63">
+  <div id="df-8ee6b7f3-977f-4c6e-9da9-e32edb5f66a5">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1587,7 +1573,7 @@ Successfully installed category_encoders-2.6.1
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2b71e7a0-59e6-4d14-ac5c-95f67e52fd63')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8ee6b7f3-977f-4c6e-9da9-e32edb5f66a5')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1638,12 +1624,12 @@ Successfully installed category_encoders-2.6.1
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2b71e7a0-59e6-4d14-ac5c-95f67e52fd63 button.colab-df-convert');
+          document.querySelector('#df-8ee6b7f3-977f-4c6e-9da9-e32edb5f66a5 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2b71e7a0-59e6-4d14-ac5c-95f67e52fd63');
+          const element = document.querySelector('#df-8ee6b7f3-977f-4c6e-9da9-e32edb5f66a5');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1672,7 +1658,7 @@ Successfully installed category_encoders-2.6.1
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-29e62a09-d477-4b13-b3f6-19dbf1c77d68">
+  <div id="df-4416e332-da90-4ded-9a00-fed69e85a958">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1725,7 +1711,7 @@ Successfully installed category_encoders-2.6.1
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-29e62a09-d477-4b13-b3f6-19dbf1c77d68')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-4416e332-da90-4ded-9a00-fed69e85a958')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
         
@@ -1776,12 +1762,12 @@ Successfully installed category_encoders-2.6.1
 
       <script>
         const buttonEl =
-          document.querySelector('#df-29e62a09-d477-4b13-b3f6-19dbf1c77d68 button.colab-df-convert');
+          document.querySelector('#df-4416e332-da90-4ded-9a00-fed69e85a958 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-29e62a09-d477-4b13-b3f6-19dbf1c77d68');
+          const element = document.querySelector('#df-4416e332-da90-4ded-9a00-fed69e85a958');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1912,6 +1898,7 @@ Test set score: 0.36
 <img alt="_images/ea0bafafd614be8bcfb93e979b44f315e539ab6e92cfef326c3bee81efb4ee85.png" src="_images/ea0bafafd614be8bcfb93e979b44f315e539ab6e92cfef326c3bee81efb4ee85.png" />
 </div>
 </div>
+</div>
 
     <script type="text/x-thebe-config">
     {
@@ -1950,7 +1937,7 @@ Test set score: 0.36
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">KNN_PCA</p>
       </div>
     </a>
     <a class="right-next"
@@ -1958,7 +1945,7 @@ Test set score: 0.36
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">&lt;no title&gt;</p>
+        <p class="prev-next-title">ANNBP PCA</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -1971,20 +1958,6 @@ Test set score: 0.36
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
